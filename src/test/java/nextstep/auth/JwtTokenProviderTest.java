@@ -1,6 +1,6 @@
 package nextstep.auth;
 
-import auth.JwtTokenProvider;
+import roomescape.auth.JwtTokenProvider;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

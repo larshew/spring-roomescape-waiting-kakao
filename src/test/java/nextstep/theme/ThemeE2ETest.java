@@ -1,14 +1,15 @@
 package nextstep.theme;
 
-import auth.TokenRequest;
-import auth.TokenResponse;
+import roomescape.auth.TokenRequest;
+import roomescape.auth.TokenResponse;
 import io.restassured.RestAssured;
 import nextstep.AbstractE2ETest;
-import nextstep.member.MemberRequest;
+import roomescape.nextstep.member.MemberRequest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import roomescape.nextstep.theme.ThemeRequest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

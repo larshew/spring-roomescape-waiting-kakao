@@ -1,7 +1,7 @@
 package nextstep.member;
 
-import auth.TokenRequest;
-import auth.TokenResponse;
+import roomescape.auth.TokenRequest;
+import roomescape.auth.TokenResponse;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -10,6 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.test.annotation.DirtiesContext;
+import roomescape.nextstep.member.Member;
+import roomescape.nextstep.member.MemberRequest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

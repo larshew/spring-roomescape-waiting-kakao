@@ -1,10 +1,10 @@
 package nextstep.auth;
 
-import auth.TokenRequest;
-import auth.TokenResponse;
+import roomescape.auth.TokenRequest;
+import roomescape.auth.TokenResponse;
 import io.restassured.RestAssured;
-import nextstep.member.MemberRequest;
-import nextstep.theme.ThemeRequest;
+import roomescape.nextstep.member.MemberRequest;
+import roomescape.nextstep.theme.ThemeRequest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
